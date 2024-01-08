@@ -1,0 +1,42 @@
+.none {
+	display: none !important;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.no-scroll {
+	overflow-y: hidden;
+}
+
+.shading {
+	background-color: rgba(27, 27, 27, 0.877);
+}
+
+.title {
+	font-size: 96px;
+
+	line-height: 92px;
+	margin-bottom: 30px;
+	text-transform: capitalize;
+}
+.subtitle {
+	text-transform: uppercase;
+	font-size: 18px;
+
+}
+
+.descr {
+	font-size: 18px;
+
+}
