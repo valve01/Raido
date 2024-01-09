@@ -3,11 +3,7 @@ html {
 }
 
 body {
-	font-family: var(--font-main);
-	font-family: 'Poppins';
-	font-weight: 700;
-	// font-weight: 400;
-	// @extend %font-Playfair-Display-400;
+	@extend %font-Muli-400;
 	background-color: var(--color-bg);
 	color: var(--color-text);
 }
