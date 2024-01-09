@@ -24,16 +24,16 @@
 }
 
 .title {
-	font-size: 96px;
-
-	line-height: 92px;
+	@extend %font-Playfair-Display-700;
+	font-size: 42px;
+	line-height: 72px;
 	margin-bottom: 30px;
-	text-transform: capitalize;
+
 }
 .subtitle {
-	text-transform: uppercase;
+	@extend %font-Muli-400;
 	font-size: 18px;
-
+	line-height: 23px;
 }
 
 .descr {

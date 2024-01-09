@@ -1,51 +1,47 @@
+.header-banner-container {
+	min-height: 818px;
+	background-image: url('../../img/banner/banner.jpg') ;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .header {
-	background-color: var(--color-page-bg);
-	box-shadow: rgba($color: #927f74, $alpha: 0.2) 0px 1px 34px;
+	border-bottom: #93a0a7 solid 1px;
+	backdrop-filter: blur(10px) brightness(65%) ;
 	&__container {
 		padding: 28px 0;
+		display: flex;
+		justify-content: space-between;
 	}
 	&__inner {
 		display: flex;
-		justify-content: space-between;
+		justify-content: end;
 		align-items: center;
-
 		text-transform: capitalize;
-	}
-}
-
-.header {
-	&__order-block {
-		align-items: center;
-		display: flex;
-	}
-	&__order-link {
-
-		margin-right: 16px;
-		text-transform: capitalize;
-	}
-	&__order {
 	}
 	&__search-link {
-		margin-right: 19px;
-	}
-	&__cart-link {
+
 	}
 }
+
 .container {
 }
 .logo-link {
 }
 .logo {
+	@extend %font-Poppins-700;
+	font-size: 22px;
+	line-height: 33px;
 }
 .menu {
 }
 .menu-list {
+	margin-right: 65px;
 	display: flex;
 }
 .menu-link {
-	color: var(--color-green);
-	font-size: 18px;
-	margin-right: 40px;
+	font-size: 16px;
+	margin-right: 63px;
 	&:last-child {
 		margin-right: 0;
 	}
