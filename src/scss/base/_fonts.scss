@@ -10,7 +10,7 @@
 
 @font-face {
 	font-family: 'Muli', Arial, sans-serif;
-	src: url('fonts/Muli-Regular.ttf');
+	src: url('fonts/Muli-Regular.woff2') format('woff2'), url('fonts/Muli-Regular.ttf') format('ttf');
 }
 
 @font-face {
@@ -36,4 +36,3 @@
 	font-family: 'Poppins', Arial, sans-serif;
 	src: url('fonts/Poppins-Bold.ttf');
 }
-
