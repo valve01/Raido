@@ -30,7 +30,7 @@
 		display: flex;
 	}
 	&__item {
-		padding: 30px 75px;
+		padding: 25px 75px 30px;
 		background-color: var(--color-gray );
 		text-align: center;
 		position: relative;
@@ -54,7 +54,8 @@
 	&__item-number {
 		@extend %font-Playfair-Display-400;
 		font-size: 42px;
-		line-height: 72px;
+		margin-bottom: 7px;
+		// line-height: 72px;
 	}
 	&__item-name {
 		font-size: 18px;
