@@ -1,17 +1,17 @@
 .raido {
+	position: relative;
 	&__inner {
 		text-align: center;
 		position: relative;
 		height: 100vh;
 		width: 100vw;
+		// z-index: 1;
 	}
 	&__video {
-		max-height: 400px;
+		max-height: 410px;
+		z-index: -1;
 	}
 	&__title {
-		-webkit-text-stroke: 1px #fff;
-		// border: 1px solid grey;
-		// text-shadow: 12px 6px 0 rgb(160, 134, 134);
 		background-color: #000;
 		color: #fff;
 		inset: 0;
@@ -19,5 +19,19 @@
 		@extend %font-Poppins-700;
 		font-size: 230px;
 		mix-blend-mode: multiply;
+		z-index: 1;
+	}
+	&__title-border {
+		transform: translate(20px, 12px);
+		text-align: center;
+		z-index: 2;
+		-webkit-text-stroke: 2px gray;
+		// text-shadow: 12px 6px 0 grey;
+		color: transparent;
+		font-size: 230px;
+		@extend %font-Poppins-700;
+		position: absolute;
+		inset: 0;
+
 	}
 }
