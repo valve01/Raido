@@ -1,37 +1,39 @@
 .raido {
 	position: relative;
+	background-color: blue;
+	z-index: 10;
 	&__inner {
 		text-align: center;
 		position: relative;
-		height: 100vh;
-		width: 100vw;
+		// height: 100vh;
+		// width: 100vw;
 		// z-index: 1;
 	}
 	&__video {
 		max-height: 410px;
-		z-index: -1;
+		// z-index: 1;
 	}
 	&__title {
-		background-color: #000;
+		background-color: #000000;
 		color: #fff;
 		inset: 0;
 		position: absolute;
 		@extend %font-Poppins-700;
 		font-size: 230px;
 		mix-blend-mode: multiply;
-		z-index: 1;
+		// z-index: 1;	
 	}
 	&__title-border {
 		transform: translate(20px, 12px);
 		text-align: center;
-		z-index: 2;
-		-webkit-text-stroke: 2px gray;
+		// z-index: 0;
+		-webkit-text-stroke: 2px rgb(192, 25, 25);
 		// text-shadow: 12px 6px 0 grey;
-		color: transparent;
+		color: gray;
 		font-size: 230px;
 		@extend %font-Poppins-700;
 		position: absolute;
 		inset: 0;
-
+		// mix-blend-mode: multiply;
 	}
 }
