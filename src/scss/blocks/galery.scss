@@ -6,7 +6,7 @@
 	&__subtitle {
 	}
 	&__list-container {
-
+		position: relative;
 	}
 	&__list {
 		display: flex;
@@ -14,7 +14,6 @@
 		column-gap: 20px;
 	}
 	&__item {
-
 	}
 	&__link {
 		text-align: center;
@@ -27,8 +26,12 @@
 		flex-direction: column;
 		justify-content: end;
 		background-position: center;
-		transition: min-width 0.5s, scale 0.5s;
+		transition: min-width 0.5s, scale 0.5s, opacity 1s;
 		&:hover {
+			.galery__item-title,
+			.galery__item-subtitle {
+				opacity: 1;
+			}
 			scale: 1.15 1.06;
 			min-width: 300px;
 		}
@@ -37,11 +40,14 @@
 	&__item-title {
 		@extend %font-Playfair-Display-700;
 		font-size: 34px;
-
+		opacity: 0;
+		transition: opacity 1s;
 	}
 	&__item-subtitle {
 		margin-bottom: 21px;
 		@extend %font-Muli-300;
+		opacity: 0;
+		transition: opacity 1s 0.3s;
 	}
 	&__link-1 {
 		background-image: url(../img/galery/galery-1.png);
@@ -59,10 +65,19 @@
 		background-image: url(../img/galery/galery-5.png);
 	}
 	&__btn-block {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: calc(50% - 6px);
+		// inset: 0;
 	}
 	&__prev-btn {
+		position: absolute;
+		top: 0;
 	}
 	&__next-btn {
+		position: absolute;
+		right: 0;
 	}
 }
 
