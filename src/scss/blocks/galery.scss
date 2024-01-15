@@ -6,7 +6,10 @@
 	&__subtitle {
 	}
 	&__list-container {
+		// display: flex;
+		margin: 0 auto;
 		position: relative;
+		max-width: 1400px;
 	}
 	&__list {
 		display: flex;
@@ -17,7 +20,6 @@
 	}
 	&__link {
 		text-align: center;
-
 		min-width: 264px;
 		min-height: 400px;
 		background-size: cover;
@@ -64,20 +66,38 @@
 	&__link-5 {
 		background-image: url(../img/galery/galery-5.png);
 	}
-	&__btn-block {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: calc(50% - 6px);
-		// inset: 0;
-	}
+
 	&__prev-btn {
+		clip-path: circle(20px);
+		width: 46px;
+		height: 46px;
+		background-color: transparent;
+		&:hover {
+			background-color: rgba($color: #bfbaa2, $alpha: 0.7);
+		}
+		top: calc(50% - 40px);
 		position: absolute;
-		top: 0;
+		left: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: background-color 0.5s;
 	}
 	&__next-btn {
+		clip-path: circle(40px at center);
+		width: 40px;
+		height: 80px;
+		background-color: transparent;
+		&:hover {
+			background-color: rgba($color: #bfbaa2, $alpha: 0.7);
+		}
+		top: calc(50% - 40px);
 		position: absolute;
-		right: 0;
+		right: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: background-color 0.5s;
 	}
 }
 
