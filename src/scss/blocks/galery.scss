@@ -1,12 +1,5 @@
 .galery {
-	&__inner {
-	}
-	&__title {
-	}
-	&__subtitle {
-	}
 	&__list-container {
-		// display: flex;
 		margin: 0 auto;
 		position: relative;
 		max-width: 1400px;
@@ -28,7 +21,8 @@
 		flex-direction: column;
 		justify-content: end;
 		background-position: center;
-		transition: min-width 0.5s, scale 0.5s, opacity 1s;
+		box-shadow: 0 0 60px rgba($color: #0a0d13, $alpha: 0);
+		transition: min-width 0.5s, scale 0.5s, opacity 1s, box-shadow 2s;
 		&:hover {
 			.galery__item-title,
 			.galery__item-subtitle {
@@ -36,6 +30,7 @@
 			}
 			scale: 1.15 1.06;
 			min-width: 300px;
+			box-shadow: 0 0 60px rgba($color: #0a0d13, $alpha: 1);
 		}
 	}
 
@@ -58,7 +53,7 @@
 		background-image: url(../img/galery/galery-2.png);
 	}
 	&__link-3 {
-		background-image: url(../img/galery/galery-3.png);
+		background-image: url('../img/galery/bottom-shadow.png'), url(../img/galery/galery-3.png);
 	}
 	&__link-4 {
 		background-image: url(../img/galery/galery-4.png);
