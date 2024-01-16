@@ -1,9 +1,17 @@
 .header-banner-container {
-	max-width: 1600px;
-	min-height: 818px;
-	background-image: url('../img/ban/ban.jpg');
+	background-image: linear-gradient(
+			rgba($color: #0a0d13, $alpha: 0.54) 0%,
+			#4e505500 15%,
+			rgba($color: #0a0d13, $alpha: 0.65) 65%,
+			#0a0d13 100%
+		),
+		url('../img/ban/ban.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	// mask-image: url('../img/ban/banner-filter.png');
+	// mask-size: cover;
+	// mask-repeat: no-repeat;
+	// mask-position: center;
 }
 
 .header {
@@ -48,7 +56,25 @@
 }
 .menu-item {
 	position: relative;
+
 	&--active {
+		color: var(--color-orange-dark);
+		font-weight: 700;
+
+		&::after {
+			position: absolute;
+			left: -32px;
+			right: -32px;
+			margin: 0 auto;
+			bottom: -35px;
+			background-color: var(--color-orange-dark);
+			content: '';
+			display: block;
+			width: 80px;
+			height: 2px;
+		}
+	}
+	&:hover {
 		color: var(--color-orange);
 		&::after {
 			position: absolute;
@@ -60,7 +86,7 @@
 			content: '';
 			display: block;
 			width: 80px;
-			height: 2px;
+			height: 1px;
 		}
 	}
 }
