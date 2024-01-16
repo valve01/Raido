@@ -68,7 +68,7 @@
 	}
 
 	&__prev-btn {
-		clip-path: circle(20px);
+		clip-path: circle(22px at center);
 		width: 46px;
 		height: 46px;
 		background-color: transparent;
@@ -84,9 +84,9 @@
 		transition: background-color 0.5s;
 	}
 	&__next-btn {
-		clip-path: circle(40px at center);
-		width: 40px;
-		height: 80px;
+		clip-path: circle(23px at center);
+		width: 46px;
+		height: 46px;
 		background-color: transparent;
 		&:hover {
 			background-color: rgba($color: #bfbaa2, $alpha: 0.7);
@@ -102,6 +102,8 @@
 }
 
 .svg-icons--prev-dims {
+	transform: translateX(-1px);
 }
 .svg-icons--next-dims {
+	transform: translateX(1px);
 }
