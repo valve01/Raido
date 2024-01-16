@@ -1,95 +1,78 @@
 .footer {
-	padding: 0;
-	background-color: var(--color-green);
-	&__container {
-		padding: 180px 0 100px;
-		// max-width: 1200px;
-		margin: 0 auto;
-	}
-	&__main-block {
-		margin-bottom: 120px;
-		gap: 0 20px;
-	}
-	&__bottom-block {
-		align-items: center;
-		display: flex;
-		justify-content: space-between;
-	}
-	&__copyright {
-
-		text-transform: capitalize;
-		font-size: 18px;
-	}
-}
-
-.footer {
-	color: var(--color-page-bg);
 	&__container {
 	}
 	&__main-block {
-	}
-	&__list {
-		display: flex;
-		justify-content: space-between;
-	}
-	&__item {
-	}
-	&__title {
-
-		margin-bottom: 25px;
-		font-size: 24px;
-		text-transform: uppercase;
-	}
-	&__item-point {
-		text-transform: capitalize;
-		font-size: 18px;
-		margin-bottom: 20px;
-		color: var(--color-page-bg);
-		&:last-child {
-			margin-bottom: 0;
-		}
-	}
-	&__mail-form {
-		font-size: 18px;
 		display: flex;
 		flex-direction: column;
-		row-gap: 20px;
+		justify-content: center;
+		align-items: center;
+		margin: 120px 0;
 	}
-	&__input {
-		padding: 8px 16px;
-		border: 3px solid var(--color-page-bg);
-		border-radius: 14px;
-		&::placeholder {
-			text-transform: capitalize;
-			color: rgba(209, 209, 209, 0.4);
-		}
-	}
-	&__submit-btn {
-		border: 3px solid var(--color-page-bg);
-
-		padding: 8px 16px;
-		border-radius: 14px;
-		text-transform: uppercase;
-		background-color: var(--color-page-bg);
-		color: var(--color-green);
-		margin-right: auto;
-	}
-	&__bottom-block {
-	}
-	&__copyright {
+	&__title {
+		@extend %font-Poppins-700;
+		font-size: 22px;
+		line-height: 33px;
+		margin-bottom: 30px;
 	}
 	&__social-block {
+
 		display: flex;
-		column-gap: 15px;
+		justify-content: center;
+		margin-bottom: 40px;
+		column-gap: 30px
 	}
 	&__social-icon {
 	}
+	&__descr {
+		@extend %font-Muli-300;
+		font-size: 14px;
+		line-height: 18px;
+		margin-bottom: 47px;
+	}
+	&__menu {
+		margin-bottom: 0;
+	}
+	&__menu-list {
+		font-size: 18px;
+		line-height: 23px;
+		display: flex;
+		justify-content: center;
+	}
+	&__menu-item {
+		margin-right: 62px;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+	&__menu-item-link {
+	}
+	&__bottom-block {
+		padding: 30px 0;
+		border-top: 1px solid #d8d8d8;
+	}
+	&__copyright {
+		@extend %font-Nunito-Regular-400;
+		font-size: 14px;
+		line-height: 22px;
+		text-align: center;
+	}
 }
-.container {
+
+.facebook-link {
 }
 .svg-icons--facebook-dims {
 }
+.instagram-link {
+}
 .svg-icons--instagram-dims {
 }
+.twitter-link {
+}
 .svg-icons--twitter-dims {
+}
+.linkedin-link {
+}
+.svg-icons--linkedin-dims {
+}
+.subtitle {
 }
