@@ -28,8 +28,8 @@
 			.galery__item-subtitle {
 				opacity: 1;
 			}
-			scale: 1.15 1.06;
-			min-width: 300px;
+			// scale: 1.15 1.06;
+			// min-width: 300px;
 			box-shadow: 0 0 60px rgba($color: #0a0d13, $alpha: 1);
 		}
 	}
@@ -52,8 +52,11 @@
 	&__link-2 {
 		background-image: url(../img/galery/galery-2.png);
 	}
+	// &__link-3 {
+	// 	background-image: url('../img/galery/bottom-shadow.png'), url(../img/galery/galery-3.png);
+	// }
 	&__link-3 {
-		background-image: url('../img/galery/bottom-shadow.png'), url(../img/galery/galery-3.png);
+		background-image: url(../img/galery/galery-3.png);
 	}
 	&__link-4 {
 		background-image: url(../img/galery/galery-4.png);
@@ -63,32 +66,34 @@
 	}
 
 	&__prev-btn {
-		clip-path: circle(22px at center);
-		width: 46px;
-		height: 46px;
-		background-color: transparent;
+		// clip-path: circle(22px at center);
+		width: 40px;
+		height: 80px;
+		border-radius: 0 40px 40px 0 ;
+		background-color: rgba($color: #424242, $alpha: 0.3);
 		&:hover {
-			background-color: rgba($color: #bfbaa2, $alpha: 0.7);
+			background-color: rgba($color: #424242, $alpha: 0.7);
 		}
 		top: calc(50% - 40px);
 		position: absolute;
-		left: 10px;
+		// left: 10px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		transition: background-color 0.5s;
 	}
 	&__next-btn {
-		clip-path: circle(23px at center);
-		width: 46px;
-		height: 46px;
-		background-color: transparent;
+		// clip-path: circle(23px at center);
+		width: 40px;
+		height: 80px;
+		border-radius: 40px 0 0 40px ;
+		background-color: rgba($color: #424242, $alpha: 0.3);
 		&:hover {
-			background-color: rgba($color: #bfbaa2, $alpha: 0.7);
+			background-color: rgba($color: #424242, $alpha: 0.7);
 		}
 		top: calc(50% - 40px);
 		position: absolute;
-		right: 10px;
+		right: 0px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -97,8 +102,8 @@
 }
 
 .svg-icons--prev-dims {
-	transform: translateX(-1px);
+	transform: translateX(-2px);
 }
 .svg-icons--next-dims {
-	transform: translateX(1px);
+	transform: translateX(2px);
 }
