@@ -16,18 +16,14 @@
 	}
 	&__item {
 		width: 340px;
-
 	}
 	&__link {
-
 	}
 	&__text-block {
-
 		position: relative;
 		background-color: var(--color-gray);
 		min-width: 340px;
 		padding: 30px;
-
 	}
 	&__author {
 		font-size: 14px;
@@ -87,8 +83,10 @@
 	right: 30px;
 	bottom: 30px;
 }
-.read-btn-container{
-display: flex;
-justify-content: center;
-margin-top: 60px;
+.read-btn-container {
+	position: relative;
+	z-index: 100;
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
 }

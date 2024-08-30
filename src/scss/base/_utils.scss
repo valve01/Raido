@@ -6,63 +6,64 @@
 	transition: 0.5s all;
 }
 .explore-btn:hover .svg-icons--compas-dims {
-		animation: compass 3s linear;
+	animation: compass 3s linear;
 }
 
 @keyframes compass {
-	0%{
+	0% {
 		transform: rotate(0deg);
 	}
-	5%{
+	5% {
 		transform: rotate(-90deg);
 	}
-	10%{
+	10% {
 		transform: rotate(-15deg);
 	}
-	20%{
+	20% {
 		transform: rotate(-75deg);
 	}
-	30%{
+	30% {
 		transform: rotate(-30deg);
 	}
-	40%{
+	40% {
 		transform: rotate(-60deg);
 	}
-	50%{
+	50% {
 		transform: rotate(-45deg);
 	}
-	95%{
+	95% {
 		transform: rotate(-45deg);
 	}
-	100%{
+	100% {
 		transform: rotate(0deg);
 	}
 }
 
-.svg-icons--arrow-black-dims{
+.svg-icons--arrow-black-dims,
+.svg-icons--arrow-dims {
 	transition: 0.5s all;
 }
-.read-btn:hover .svg-icons--arrow-black-dims{
-animation: arrow 1s linear infinite;
+.read-btn:hover .svg-icons--arrow-black-dims,
+.discover-btn:hover .svg-icons--arrow-dims {
+	animation: arrow 1s linear infinite;
 }
 @keyframes arrow {
-	0%{
+	0% {
 		transform: translateX(0px);
 	}
-	25%{
+	25% {
 		transform: translateX(-10px);
 	}
-	50%{
+	50% {
 		transform: translateX(0px);
 	}
-	75%{
+	75% {
 		transform: translateX(10px);
 	}
-	100%{
+	100% {
 		transform: translateX(0px);
 	}
 }
-
 
 .visually-hidden {
 	position: absolute;
