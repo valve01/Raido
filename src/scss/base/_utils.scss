@@ -1,9 +1,7 @@
 .none {
 	display: none !important;
 }
-// .explore-btn-text-block:hover .svg-icons--compas-dims{
-// transform: rotate(270deg);
-// }
+
 .svg-icons--compas-dims {
 	transition: 0.5s all;
 }
@@ -38,6 +36,30 @@
 	}
 	100%{
 		transform: rotate(0deg);
+	}
+}
+
+.svg-icons--arrow-black-dims{
+	transition: 0.5s all;
+}
+.read-btn:hover .svg-icons--arrow-black-dims{
+animation: arrow 1s linear infinite;
+}
+@keyframes arrow {
+	0%{
+		transform: translateX(0px);
+	}
+	25%{
+		transform: translateX(-10px);
+	}
+	50%{
+		transform: translateX(0px);
+	}
+	75%{
+		transform: translateX(10px);
+	}
+	100%{
+		transform: translateX(0px);
 	}
 }
 
