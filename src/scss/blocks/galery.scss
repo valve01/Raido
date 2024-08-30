@@ -86,7 +86,7 @@
 		border-radius: 0 40px 40px 0;
 		background-color: rgba($color: #424242, $alpha: 0.3);
 		&:hover {
-			background-color: rgba($color: #424242, $alpha: 0.7);
+			background-color: rgba($color: #424242, $alpha: 0.85);
 		}
 		top: calc(50% - 40px);
 		position: absolute;
@@ -105,7 +105,7 @@
 		border-radius: 40px 0 0 40px;
 		background-color: rgba($color: #424242, $alpha: 0.3);
 		&:hover {
-			background-color: rgba($color: #424242, $alpha: 0.7);
+			background-color: rgba($color: #424242, $alpha: 0.85);
 		}
 		top: calc(50% - 40px);
 		position: absolute;
