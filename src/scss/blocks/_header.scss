@@ -19,14 +19,14 @@
 	backdrop-filter: blur(10px) brightness(75%);
 	&__container {
 		padding: 28px 0;
-		display: flex;
-		justify-content: space-between;
+
 	}
 	&__inner {
 		display: flex;
-		justify-content: end;
+		// justify-content: end;
 		align-items: center;
 		text-transform: capitalize;
+		justify-content: space-between;
 	}
 	&__search-link {
 	}
@@ -44,12 +44,11 @@
 .menu {
 }
 .menu-list {
-	margin-right: 65px;
 	display: flex;
+	column-gap: 32px;
 }
 .menu-link {
 	font-size: 16px;
-	margin: 0 32px;
 	&:last-child {
 		margin-right: 0;
 	}
