@@ -58,22 +58,22 @@
 		min-width: 340px;
 	}
 	&__img-1 {
-		background-image: url('../../img/journals/journals-1.png');
+		background-image: url('../../img/journals/journals-1.jpg');
 	}
 	&__img-2 {
-		background-image: url('../../img/journals/journals-2.png');
+		background-image: url('../../img/journals/journals-2-1.jpg');
 	}
 	&__img-3 {
-		background-image: url('../../img/journals/journals-3.png');
+		background-image: url('../../img/journals/journals-3.jpg');
 	}
 	&__img-4 {
-		background-image: url('../../img/journals/journals-4.png');
+		background-image: url('../../img/journals/journals-4.jpg');
 	}
 	&__img-5 {
-		background-image: url('../../img/journals/journals-5.png');
+		background-image: url('../../img/journals/journals-5.jpg');
 	}
 	&__img-6 {
-		background-image: url('../../img/journals/journals-6.png');
+		background-image: url('../../img/journals/journals-6.jpg');
 	}
 }
 .svg-icons--share-dims {
@@ -90,3 +90,84 @@
 	justify-content: center;
 	margin-top: 60px;
 }
+
+
+// ============================
+.image {
+	position: relative;
+	width: 340px;
+	height: 360px;
+	margin: 0 auto;
+	overflow: hidden;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  .image-switch {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 20;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  .img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  
+  .image-switch-item {
+	width: 33.33%;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding-bottom: 5px;
+  }
+  
+  .image-switch-item::after {
+	content: "";
+	width: 90%;
+	margin: 0 auto;
+	height: 3px;
+	background-color: rgba(255,255,255, 0.4);
+	border-radius: 10px;
+	z-index: 2;
+	position: relative;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  .switched-image {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	opacity: 0;
+	z-index: 2;
+	transition: all 0.3s ease-in-out;
+	width: 100%;
+	height: 100%;
+	transform: translateX(-50%);
+	pointer-events: none;
+  }
+  
+  .image:hover .image-switch {
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  .image-switch-item:hover .switched-image {
+	transition: all 0.3s ease-in-out;
+	opacity: 1;
+	z-index: -1;
+  }
+  
+  .image-switch-item:hover::after {
+	background-color: #fff;
+	transition: all 0.3s ease-in-out;
+  }
