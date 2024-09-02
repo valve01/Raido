@@ -1,0 +1,85 @@
+.mail-form {
+	&__inner {
+		display: flex;
+	}
+	&__main {
+		width: 55%;
+		height: 600px;
+	}
+	&__form {
+		display: flex;
+		flex-direction: column;
+		row-gap: 40px;
+		padding-top: 71px;
+		padding-right: 88px;
+		align-items: end;
+	}
+	&__input {
+		background-color: #20232c;
+		width: 100%;
+		padding: 22px 0 22px 30px;
+		&::placeholder {
+			color: #fff;
+		}
+		&:last-of-type{
+			padding-bottom: 130px;
+		}
+		
+	}
+	&__user-name {
+	}
+	&__user-mail {
+	}
+	&__comment {
+	}
+	&__submit {
+
+	}
+	&__contacts {
+		background-color: green;
+		height: 600px;
+		width: 45%;
+	}
+	&__contacts-inner {
+	}
+	&__header {
+	}
+	&__title {
+	}
+	&__contacts-list {
+	}
+	&__contacts-item {
+	}
+	&__contacts-link {
+	}
+	&__contacts-icon {
+	}
+	&__contats-text {
+	}
+}
+.container {
+}
+.read-btn {
+}
+.read-btn-text-block {
+}
+.read-btn-text-block-light {
+	.read-btn-text {
+		color: #fff;
+		padding: 15px 40px;
+	}
+}
+.read-btn-text {
+}
+.read-btn-icon-block {
+}
+.svg-icons--arrow-dims {
+}
+.title {
+}
+.subtitle {
+}
+.journals {
+	&__subtitle {
+	}
+}

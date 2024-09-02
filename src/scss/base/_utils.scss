@@ -44,6 +44,7 @@
 	transition: 0.5s all;
 }
 .read-btn:hover .svg-icons--arrow-black-dims,
+.read-btn:hover .svg-icons--arrow-dims,
 .discover-btn:hover .svg-icons--arrow-dims {
 	animation: arrow 1s linear infinite;
 }
