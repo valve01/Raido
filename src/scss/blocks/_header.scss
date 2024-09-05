@@ -15,6 +15,9 @@
 }
 
 .header {
+	z-index: 100;
+	position: fixed;
+	width: 100%;
 	border-bottom: #93a0a7 solid 1px;
 	backdrop-filter: blur(10px) brightness(75%);
 	&__container {
@@ -65,12 +68,12 @@
 			left: -32px;
 			right: -32px;
 			margin: 0 auto;
-			bottom: -35px;
+			bottom: -36px;
 			background-color: var(--color-orange-dark);
 			content: '';
 			display: block;
 			width: 80px;
-			height: 2px;
+			height: 3px;
 		}
 	}
 	&:hover {

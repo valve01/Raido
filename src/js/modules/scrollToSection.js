@@ -1,6 +1,6 @@
 
 const links = document.querySelectorAll('.menu-item a, .footer__menu-item a');
-console.log(links);
+// console.log(links);
 
 const scrollToBlock = (block) => {
 	block.scrollIntoView(top);
