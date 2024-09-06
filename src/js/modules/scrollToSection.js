@@ -9,7 +9,7 @@ const scrollToBlock = (block) => {
 links.forEach((link) => {
 	link.addEventListener('click', function (e) {
 		e.preventDefault();
-		const blockToScroll = link.getAttribute('data-section');
+		const blockToScroll = link.getAttribute('data-menu-name');
 		scrollToBlock(document.querySelector(`.${blockToScroll}`));
 	});
 });

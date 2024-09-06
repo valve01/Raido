@@ -2,6 +2,7 @@
 // mobileNav();
 import './modules/scrollToSection';
 // import './modules/showHideForm';
+import './modules/menuActiveSwitcher';
 
 import showHideForm from './modules/showHideForm';
 showHideForm()
