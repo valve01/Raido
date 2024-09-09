@@ -16,11 +16,37 @@ const swiperSlider = () => {
 			prevEl: '.galery__prev-btn',
 		},
 		loop: true,
-		slidesPerView: 5,
+		slidesPerView: 2,
 		spaceBetween: 20,
 		autoplay: {
 			delay: 5000,
 		},
+		breakpoints: {
+			// when window width is >= 320px
+			320: {
+			  slidesPerView: 2,
+
+			},
+			// when window width is >= 480px
+			480: {
+			  slidesPerView: 3,
+
+			},
+			// when window width is >= 640px
+			640: {
+			  slidesPerView: 4,
+
+			},
+			1170: {
+				slidesPerView: 4,
+  
+			  },
+			1440: {
+				slidesPerView: 5,
+  
+			  }
+
+		  }
 	});
 };
 export default swiperSlider;

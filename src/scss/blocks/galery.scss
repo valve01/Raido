@@ -2,7 +2,7 @@
 	margin-top: -100px;
 	padding-top: 100px;
 	&__list-container {
-		margin: 0 auto;
+		margin: 0 20px;
 		position: relative;
 		max-width: 1400px;
 		overflow: hidden;
@@ -13,14 +13,14 @@
 		column-gap: 20px;
 	}
 	&__item {
-		min-width: 264px;
-		min-height: 400px;
+		// min-width: 264px;
+		// min-height: 400px;
 	}
 	&__link {
 		position: relative;
 		text-align: center;
-		min-width: 264px;
-		min-height: 400px;
+		width: 264px;
+		height: 400px;
 
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -48,12 +48,6 @@
 			&::before {
 				opacity: 1;
 			}
-
-			// &:hover::before {
-			// 	opacity: 0;
-			// }
-
-			// box-shadow: 0 0 60px rgba($color: #0a0d13, $alpha: 1);
 		}
 	}
 	&__item-title {
