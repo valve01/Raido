@@ -4,6 +4,10 @@
 // }
 
 // Desktop first
-// @media (max-width: 1440px) {
-
-// }
+@media (max-width: 1440px) {
+	.galery {
+		&__list-container {
+			max-width: 1110px;
+		}
+	}
+}

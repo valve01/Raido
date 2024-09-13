@@ -18,9 +18,9 @@ const swiperSlider = () => {
 		loop: true,
 		slidesPerView: 2,
 		spaceBetween: 20,
-		autoplay: {
-			delay: 5000,
-		},
+		// autoplay: {
+		// 	delay: 5000,
+		// },
 		breakpoints: {
 			// when window width is >= 320px
 			320: {
@@ -34,9 +34,11 @@ const swiperSlider = () => {
 			},
 			// when window width is >= 640px
 			640: {
-			  slidesPerView: 4,
-
+			  slidesPerView: 3,
 			},
+			768: {
+				slidesPerView: 3,
+			  },
 			1170: {
 				slidesPerView: 4,
   

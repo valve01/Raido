@@ -1,0 +1,52 @@
+//Mobile first
+// @media (min-width: 1000px) {
+
+// }
+
+// Desktop first
+@media (max-width: 1170px) {
+	.galery {
+		&__list-container {
+			max-width: 830px;
+		}
+	}
+
+	.mail-form {
+		&--active {
+			padding-top: 90px;
+		}
+		&__main {
+			width: 50%;
+			height: 500px;
+		}
+		&__form {
+			row-gap: 10px;
+			padding-top: 70px;
+			padding-right: 0px;
+		}
+		&__input {
+			padding: 14px 0 14px 20px;
+		}
+		&__contacts {
+			right: 0;
+			left: 52%;
+			height: 500px;
+		}
+		&__bg-wrapper {
+			padding-right: 30px;
+			padding-left: 30px;
+		}
+		&__contacts-list {
+			row-gap: 20px;
+		}
+		&__contats-text {
+			margin-left: 21px;
+		}
+	}
+
+	.footer {
+		&__menu-list {
+			column-gap: 40px;
+		}
+	}
+}
