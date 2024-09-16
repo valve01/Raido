@@ -1,0 +1,29 @@
+//Mobile first
+// @media (min-width: 1000px) {
+
+// }
+
+// Desktop first
+@media (max-width: 889px) {
+	// journals ==============================================================
+
+	.journals {
+		&__list {
+			grid-template-columns: repeat(2, 280px);
+			column-gap: 20px;
+		}
+	}
+
+	.galery {
+		&__list-container {
+			max-width: 730px;
+		}
+		&__link {
+			width: 230px;
+			height: 360px;
+			& img {
+				min-height: 360px;
+			}
+		}
+	}
+}

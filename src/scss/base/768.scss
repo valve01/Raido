@@ -4,7 +4,7 @@
 // }
 
 // Desktop first
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	// header ======================================================
 	.header-banner-container {
 		background-position: 75% 0;
@@ -84,32 +84,9 @@
 		&__inner {
 			padding-top: 90px;
 		}
-		&__list {
-			grid-template-columns: repeat(2, 280px);
-			row-gap: 20px;
-			column-gap: 20px;
-			justify-content: center;
-		}
-		&__item {
-			width: 280px;
-		}
-		&__link {
-		}
-		&__text-block {
-			min-width: 280px;
-			padding: 20px;
-		}
-		&__item-bg-image {
-			min-height: 310px;
-			min-width: 280px;
-		}
 	}
 
-	// ============================
-	.image {
-		width: 280px;
-		height: 310px;
-	}
+
 
 	// Raido ==============================================================
 
@@ -188,10 +165,11 @@
 		}
 	}
 	// mail-form ============================================================
-
-
-
-
+	.mail-form {
+		&__form {
+			row-gap: 10px;
+		}
+	}
 
 	// footer ==============================================================
 	.footer {
