@@ -43,6 +43,38 @@
 			margin-left: 21px;
 		}
 	}
+
+// discover =============================================================
+
+.discover-btn-text {
+	position: relative;
+	top: -2px;
+}
+
+.discover {
+	&__list {
+		column-gap: 20px;
+	}
+	&__item {
+		padding: 0 10px;
+		&:hover {
+			transform: translateY(30px);
+		}
+	}
+	&__item-title {
+		color: var(--color-orange-dark);
+	}
+	&__item-descr {
+		min-height: 120px;
+	}
+}
+// blog ==============================================================
+.blog {
+	&__img {
+		height: 300px;
+		width: 300px;
+	}
+}
 	// journals ==============================================================
 
 	.journals {
