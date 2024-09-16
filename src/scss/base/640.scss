@@ -4,6 +4,118 @@
 // }
 
 // Desktop first
-// @media (max-width: 640px) {
+@media (max-width: 639px) {
+	// header ==========================================================
+	.menu-list {
+		display: none;
+	}
+	// about ================================================================
+	.about {
+		&__inner {
+			min-height: 530px;
+			position: relative;
+			top: 20px;
+		}
+		&__photo-container {
+			min-width: 480px;
+			min-height: 530px;
+		}
+		&__subtitle {
+			margin-bottom: 30px;
+		}
+	}
+	.stat {
+		margin-bottom: 30px;
+		&__item {
+			padding: 10px 16px 20px;
+		}
+		&__item-number {
+			font-size: 30px;
+		}
+		&__item-name {
+			font-size: 16px;
+		}
+	}
+	// discover =======================================================
+	.discover-btn {
+		padding: 8px;
+	}
+	.discover-btn-text-block {
+		margin-right: 6px;
+	}
+	.discover-btn-text {
+		font-size: 14px;
+		position: relative;
+		top: -2px;
+	}
+	.discover-btn-icon-block {
+		display: none;
+	}
 
-// }
+	.discover {
+		&__inner {
+			padding-top: 90px;
+			padding-bottom: 80px;
+		}
+		&__list {
+			column-gap: 10px;
+		}
+		&__item {
+			height: 300px;
+			padding: 0 10px;
+			&:hover {
+				transform: translateY(30px);
+			}
+		}
+		&__item-title {
+			color: var(--color-orange-dark);
+		}
+		&__item-descr {
+			font-size: 14px;
+			min-height: 160px;
+		}
+		&__item-text-container {
+			margin-bottom: -50px;
+
+		}
+	}
+
+	// blog ==============================================================
+	.blog {
+		&__img {
+			height: 240px;
+			width: 240px;
+		}
+		&__list {
+			display: grid;
+			grid-template-rows: repeat(2, 1fr);
+			grid-template-columns: repeat(2, 240px);
+			justify-items: center;
+		}
+		&__descr {
+			font-size: 14px;
+			line-height: 16px;
+		}
+	}
+
+	// Raido ==============================================================
+
+	.raido {
+		&__video {
+			max-width: 440px;
+		}
+	}
+	.svg-raido--raido-shadow-dims {
+		width: 440px;
+		top: -90px;
+		transform: translateX(8px);
+	}
+
+	 // footer =========================================
+	 .footer{
+		&__menu-list{
+			flex-direction: column;
+			align-items: center;
+		}
+	 }
+}
