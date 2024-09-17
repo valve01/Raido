@@ -15,8 +15,11 @@
 			min-height: 530px;
 			position: relative;
 			top: 20px;
+
 		}
 		&__photo-container {
+			left: auto;
+			right: 0;
 			min-width: 480px;
 			min-height: 530px;
 		}
@@ -142,6 +145,28 @@
 		transform: translateX(8px);
 	}
 
+	// galery ===========================================
+	.galery {
+
+		&__list-container {
+			max-width: 440px;
+		}
+		&__link {
+			width: 210px;
+			height: 300px;
+			& img {
+				min-height: 300px;
+			}
+
+		}
+		&__item-title {
+			
+			font-size: 24px;
+		}
+		&__item-subtitle {
+			font-size: 20px;
+		}
+	}
 	 // footer =========================================
 	 .footer{
 		&__menu-list{
