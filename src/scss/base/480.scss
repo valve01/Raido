@@ -6,6 +6,7 @@
 // Desktop first
 @media (max-width: 479px) {
 	// header==================================================
+
 	.title {
 		font-size: 34px;
 		line-height: 40px;
@@ -26,7 +27,13 @@
 	// about ================================================================
 	.about {
 		&__inner {
-			top: 0px;
+			top: 20px;
+		}
+		&__subtitle{
+			background-color: rgba(0, 0, 0, 0.295);
+			padding: 10px;
+			border-radius: 20px;
+			margin-bottom: 20px;
 		}
 	}
 	.stat {
