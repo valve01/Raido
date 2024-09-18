@@ -1,11 +1,11 @@
-.banner {
 
+
+.banner {
 	&__inner {
 		min-height: 905px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-
 	}
 	&__title {
 		max-width: 635px;
@@ -13,6 +13,7 @@
 		line-height: 72px;
 		margin-bottom: 13px;
 		text-align: left;
+		// color: red;
 	}
 	&__subtitle {
 		margin-bottom: 60px;

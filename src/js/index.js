@@ -1,6 +1,7 @@
 // import mobileNav from './modules/mobile-nav';
 // mobileNav();
 import './modules/scrollToSection';
+import './modules/noTopScroll';
 // import './modules/showHideForm';
 import './modules/menuActiveSwitcher';
 

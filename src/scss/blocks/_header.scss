@@ -79,21 +79,8 @@
 		}
 	}
 	&:hover {
-		// color: var(--color-orange);
 		& a {
 			color: var(--color-orange);
-		}
-		&::after {
-			// position: absolute;
-			// left: -32px;
-			// right: -32px;
-			// margin: 0 auto;
-			// bottom: -35px;
-			// background-color: var(--color-orange);
-			// content: '';
-			// display: block;
-			// width: 80px;
-			// height: 1px;
 		}
 	}
 }

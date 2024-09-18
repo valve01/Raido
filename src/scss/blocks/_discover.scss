@@ -1,3 +1,5 @@
+
+
 .discover {
 	background-color: #0d1117;
 	&__inner {
@@ -73,5 +75,15 @@
 		text-align: left;
 		font-weight: 300;
 		min-height: 80px;
+	}
+}
+
+@media (pointer: coarse) {
+	.discover {
+		&__item {
+			&:hover {
+				transform: translateY(0px);
+			}
+		}
 	}
 }

@@ -48,6 +48,15 @@
 .discover-btn:hover .svg-icons--arrow-dims {
 	animation: arrow 1s linear infinite;
 }
+
+@media (pointer: coarse) {
+	.read-btn:hover .svg-icons--arrow-black-dims,
+	.read-btn:hover .svg-icons--arrow-dims,
+	.discover-btn:hover .svg-icons--arrow-dims{
+		animation: none;
+	}
+}
+
 @keyframes arrow {
 	0% {
 		transform: translateX(0px);

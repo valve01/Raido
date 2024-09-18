@@ -4,6 +4,14 @@
 // }
 
 // Desktop first
+// @media (max-device-width: 1024px) {
+// 	*:hover {
+// 		transform: translate(0);
+// 	}
+// }
+
+
+
 @media (max-width: 1169px) {
 	.galery {
 		&__list-container {
@@ -44,41 +52,40 @@
 		}
 	}
 
-// discover =============================================================
+	// discover =============================================================
 
-.discover-btn-text {
-	position: relative;
-	top: -2px;
-}
-
-.discover {
-	&__list {
-		column-gap: 20px;
+	.discover-btn-text {
+		position: relative;
+		top: -2px;
 	}
-	&__item {
-		padding: 0 10px;
-		&:hover {
-			transform: translateY(30px);
+
+	.discover {
+		&__list {
+			column-gap: 20px;
+		}
+		&__item {
+			padding: 0 10px;
+			&:hover {
+				transform: translateY(30px);
+			}
+		}
+		&__item-title {
+			color: var(--color-orange-dark);
+		}
+		&__item-descr {
+			min-height: 120px;
 		}
 	}
-	&__item-title {
-		color: var(--color-orange-dark);
+	// blog ==============================================================
+	.blog {
+		&__img {
+			height: 300px;
+			width: 300px;
+		}
 	}
-	&__item-descr {
-		min-height: 120px;
-	}
-}
-// blog ==============================================================
-.blog {
-	&__img {
-		height: 300px;
-		width: 300px;
-	}
-}
 	// journals ==============================================================
 
 	.journals {
-
 		&__list {
 			grid-template-columns: repeat(3, 280px);
 			row-gap: 20px;
@@ -131,3 +138,4 @@
 		}
 	}
 }
+
