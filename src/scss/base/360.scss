@@ -4,5 +4,8 @@
 // }
 
 // Desktop first
-// @media (max-width: 360px) {
-// }
+@media (max-width: 359px) {
+	.stat__item{
+		padding: 10px;
+	}
+}

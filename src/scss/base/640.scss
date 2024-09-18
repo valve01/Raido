@@ -65,9 +65,7 @@
 		&__item {
 			height: 300px;
 			padding: 0 10px;
-			&:hover {
-				transform: translateY(30px);
-			}
+
 		}
 		&__item-title {
 			color: var(--color-orange-dark);
@@ -84,6 +82,8 @@
 		}
 
 	}
+
+
 
 	// blog ==============================================================
 	.blog {

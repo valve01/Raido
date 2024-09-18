@@ -76,6 +76,16 @@
 			min-height: 120px;
 		}
 	}
+
+	@media (pointer: coarse) {
+		.discover {
+			&__item {
+				&:hover {
+					transform: translateY(0px);
+				}
+			}
+		}
+	}
 	// blog ==============================================================
 	.blog {
 		&__img {

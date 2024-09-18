@@ -80,9 +80,6 @@
 		&__item {
 			height: 400px;
 			padding: 0 10px;
-			&:hover {
-				transform: translateY(30px);
-			}
 		}
 		&__item-title {
 			color: var(--color-orange-dark);
@@ -91,6 +88,8 @@
 			min-height: 180px;
 		}
 	}
+
+
 	// blog ==============================================================
 	.blog {
 		padding-top: 90px;
@@ -178,7 +177,7 @@
 		&__circle-block-phone {
 			font-size: 18px;
 			line-height: 24px;
-			margin-bottom: 8px;
+		
 		}
 		&__circle-block-descr {
 			line-height: 24px;

@@ -1,5 +1,4 @@
 .footer {
-
 	&__container {
 	}
 	&__main-block {
@@ -40,15 +39,12 @@
 		column-gap: 62px;
 	}
 	&__menu-item {
-
 		transition: all 0.5s;
 		:hover {
 			color: var(--color-orange);
 		}
 	}
-	&__menu-item-link {
 
-	}
 	&__bottom-block {
 		padding: 30px 0;
 		border-top: 1px solid #d8d8d8;
@@ -61,21 +57,12 @@
 	}
 }
 
-.facebook-link {
-}
-.svg-icons--facebook-dims {
-}
-.instagram-link {
-}
-.svg-icons--instagram-dims {
-}
-.twitter-link {
-}
-.svg-icons--twitter-dims {
-}
-.linkedin-link {
-}
-.svg-icons--linkedin-dims {
-}
-.subtitle {
+@media (pointer: coarse) {
+	.footer {
+		&__menu-item {
+			:hover {
+				color: #fff;
+			}
+		}
+	}
 }
