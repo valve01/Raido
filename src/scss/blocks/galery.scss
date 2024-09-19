@@ -78,7 +78,7 @@
 
 	&__prev-btn {
 		user-select: none;
-		z-index: 100;
+		z-index: 10;
 		// clip-path: circle(22px at center);
 		width: 40px;
 		height: 80px;
@@ -97,7 +97,7 @@
 	}
 	&__next-btn {
 		user-select: none;
-		z-index: 100;
+		z-index: 10;
 		// clip-path: circle(23px at center);
 		width: 40px;
 		height: 80px;

@@ -2,8 +2,13 @@
 	display: none;
 }
 .mobile-burger__btn {
-width: 24px;
-height: 2px;
-background-color: #fff;
-box-shadow: #fff 0 -6px, #fff 0 -12px;
+	position: relative;
+	top: 2px;
+	height: 30px;
+}
+.mobile-burger__btn-inner{
+	width: 30px;
+	height: 2px;
+	background-color: #fff;
+	box-shadow: #fff 0 -8px, #fff 0 8px;
 }

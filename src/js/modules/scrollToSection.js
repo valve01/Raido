@@ -1,5 +1,5 @@
 
-const links = document.querySelectorAll('.menu-item a, .footer__menu-item a');
+const links = document.querySelectorAll('.menu-item a, .footer__menu-item a, .mobile-nav__item a');
 console.log(links);
 
 const scrollToBlock = (block) => {

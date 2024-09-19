@@ -3,7 +3,7 @@
 
 	&__menu {
 		&:has(.mobile-nav--active) {
-			z-index: 200;
+			z-index: 999;
 			transition: 0.7s;
 			position: absolute;
 			background-color: rgba($color: #1b1b1b, $alpha: 0.5);
@@ -16,16 +16,16 @@
 		margin: 0 auto;
 		left: 0;
 		right: 0;
-		top: -100%;
+		top: -100vh;
 		// top: 0;
 		position: absolute;
-		// width: 360px;
 		height: 100vh;
 		text-align: center;
 		transition: 0.7s;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		
 	}
 
 	&__top {
@@ -35,12 +35,10 @@
 	}
 	&__close-btn {
 		position: absolute;
-		top: 34px;
+		top: 30px;
 		right: 22px;
-		background-color: #fff;
 	}
 	&__list {
-		// @extend %font-cormorant-400;
 		font-size: 24px;
 		line-height: normal;
 	}
@@ -56,11 +54,11 @@ body:has(.mobile-nav--active) {
 	overflow-y: hidden;
 }
 .mobile-nav__wrapper.mobile-nav--active {
-	top: 0;
+	top: -89px;
 }
 
 
 .svg-icons--cross-dims {
-	height: 20px;
-	width: 20px;
+	height: 30px;
+	width: 30px;
 }
