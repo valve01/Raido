@@ -8,6 +8,13 @@
 			height: 0;
 		}
 	}
+	&__section-title {
+		width: 0;
+		height: 0;
+		opacity: 0;
+		z-index: -999;
+		position: absolute;
+	}
 	&__video {
 		max-width: 660px;
 		// Чтобы сделать сложную фигуру с видео вместо цвета, и при этом иметь возможность сделать обводку. 3 способа годятся.1 - через mask-image, 2 через clip-path + ссылка на элемент в разметке (clip-path: url(#cross);), 3 через clip-path: path()

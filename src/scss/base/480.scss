@@ -73,8 +73,11 @@
 			flex-wrap: wrap;
 		}
 		&__item {
-			width: 46%;
-			margin-bottom: 80px;
+			width: 300px;
+			margin-bottom: 100px;
+			&:last-of-type{
+				margin-bottom: 20px;
+			}
 		}
 		&__item-descr {
 			min-height: 120px;
