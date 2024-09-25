@@ -118,7 +118,8 @@ function imagesDocs() {
 			// .pipe(dest('./docs/img/'))// Временно отключаю
 
 			// Третий раза обращаемся к /img/
-			.pipe(src(['./src/img/**/*', '!./src/img/**/*.svg', './src/img/logo.svg']))
+			// .pipe(src(['./src/img/**/*', '!./src/img/**/*.svg', './src/img/logo.svg']))
+			.pipe(src(['./src/img/**/*', '!./src/img/**/*.svg']))
 			.pipe(changed('./docs/img/'))
 			.pipe(imagemin({ verbose: true }))
 			.pipe(dest('./docs/img/'))
