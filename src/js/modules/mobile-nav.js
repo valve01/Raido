@@ -4,7 +4,6 @@ function mobileNav() {
 	const navBtn = document.querySelector('.mobile-burger__btn');
 	const nav = document.querySelector('.mobile-nav__wrapper');
 	const closeBtn = document.querySelector('.mobile-nav__close-btn');
-
 	const links = document.querySelectorAll('.mobile-nav__item a');
 
 	navBtn.onclick = function () {
