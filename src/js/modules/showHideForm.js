@@ -21,8 +21,8 @@ function showHideForm() {
 	});
 
 	mailFormSubmit.addEventListener('click', (e) => {
-		mailForm.classList.toggle('mail-form--active');
-		scrollToBlock(contacts);
+		// mailForm.classList.toggle('mail-form--active');
+		// scrollToBlock(contacts);
 		e.preventDefault();
 	});
 }
