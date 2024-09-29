@@ -4,6 +4,8 @@ import './modules/scrollToSection';
 import './modules/noTopScroll';
 import './modules/baguettebox';
 import './modules/menuActiveSwitcher';
+import './modules/cleaveZen';
+
 
 import showHideForm from './modules/showHideForm';
 showHideForm()
