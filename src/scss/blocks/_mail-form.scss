@@ -1,11 +1,10 @@
 .mail-form {
 	z-index: -100;
-	transition: all 0.5s;
+	transition: all 0.2s;
 	position: relative;
 	transform: translateY(-100%);
 	opacity: 0;
 	max-height: 0;
-
 
 	&--active {
 		transform: translate(0);

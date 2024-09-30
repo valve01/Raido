@@ -1,5 +1,3 @@
-import mobileNav from './modules/mobile-nav';
-mobileNav();
 import './modules/scrollToSection';
 import './modules/noTopScroll';
 import './modules/baguettebox';
@@ -7,12 +5,12 @@ import './modules/menuActiveSwitcher';
 import './modules/sweetAlarm';
 import './modules/validator';
 
-
-
-
-import showHideForm from './modules/showHideForm';
-showHideForm()
+import mobileNav from './modules/mobile-nav';
+import showForm from './modules/showForm';
 import swiperSlider from './modules/swiperSlider';
+
+mobileNav();
+showForm()
 swiperSlider();
 
 
