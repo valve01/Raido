@@ -30,7 +30,7 @@
 		align-items: end;
 	}
 	&__input {
-		background-color: #20232c;
+		background-color: #20232c ;
 		width: 100%;
 		padding: 22px 0 22px 30px;
 		&::placeholder {
@@ -53,6 +53,7 @@
 	&__comment {
 	}
 	&__submit {
+		
 	}
 	&__contacts {
 		background-size: cover;
@@ -115,7 +116,7 @@
 }
 .read-btn-text-block-light {
 	.read-btn-text {
-		color: #fff;
+		color: var(--color-bg);
 		padding: 15px 40px;
 	}
 }
