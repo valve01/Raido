@@ -48,11 +48,18 @@
 .discover-btn:hover .svg-icons--arrow-dims {
 	animation: arrow 1s linear infinite;
 }
+body .invalid-value::placeholder {
+	color: red;
+}
+
+body .valid-value {
+	color: green;
+}
 
 @media (pointer: coarse) {
 	.read-btn:hover .svg-icons--arrow-black-dims,
 	.read-btn:hover .svg-icons--arrow-dims,
-	.discover-btn:hover .svg-icons--arrow-dims{
+	.discover-btn:hover .svg-icons--arrow-dims {
 		animation: none;
 	}
 }
