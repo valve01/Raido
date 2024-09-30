@@ -33,10 +33,10 @@
 	}
 	&__item {
 		padding: 25px 75px 30px;
-		background-color: var(--color-gray );
+		background-color: var(--color-gray);
 		text-align: center;
 		position: relative;
-		&::after{
+		&::after {
 			position: absolute;
 			right: 0;
 			top: 42%;
@@ -44,11 +44,10 @@
 			display: block;
 			height: 37px;
 			width: 2px;
-			background-color: #2B313C;
-
+			background-color: #2b313c;
 		}
-		&:last-of-type{
-			&::after{
+		&:last-of-type {
+			&::after {
 				display: none;
 			}
 		}
@@ -57,7 +56,6 @@
 		@extend %font-Playfair-Display-400;
 		font-size: 42px;
 		margin-bottom: 7px;
-		// line-height: 72px;
 	}
 	&__item-name {
 		font-size: 18px;

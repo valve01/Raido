@@ -7,6 +7,7 @@
 @media (max-width: 889px) {
 
 // blog ==============================================================
+
 .blog {
 	&__list {
 		display: grid;
@@ -27,7 +28,9 @@
 			column-gap: 20px;
 		}
 	}
+
 // galery ===========================================
+
 	.galery {
 		&__list-container {
 			max-width: 730px;

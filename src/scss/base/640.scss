@@ -5,14 +5,18 @@
 
 // Desktop first
 @media (max-width: 639px) {
+
 	// header ==========================================================
+
 	.menu-list {
 		display: none;
 	}
 	.mobile-burger {
 		display: block;
 	}
+
 	// about ================================================================
+
 	.about {
 		&__inner {
 			min-height: 530px;
@@ -41,7 +45,9 @@
 			font-size: 16px;
 		}
 	}
+
 	// discover =======================================================
+
 	.discover-btn {
 		padding: 8px;
 	}
@@ -68,7 +74,6 @@
 		&__item {
 			height: 300px;
 			padding: 0 10px;
-
 		}
 		&__item-title {
 			color: var(--color-orange-dark);
@@ -83,12 +88,10 @@
 			flex-direction: column;
 			align-items: center;
 		}
-
 	}
 
-
-
 	// blog ==============================================================
+
 	.blog {
 		&__img {
 			height: 240px;
@@ -151,6 +154,7 @@
 	}
 
 	// galery ===========================================
+
 	.galery {
 		&__list-container {
 			max-width: 440px;
@@ -193,7 +197,9 @@
 			line-height: 20px;
 		}
 	}
+
 	// mail-form =========================================
+
 	.mail-form {
 		&__form {
 			row-gap: 10px;
@@ -219,7 +225,9 @@
 			margin-left: 12px;
 		}
 	}
+
 	// footer =========================================
+	
 	.footer {
 		&__menu-list {
 			flex-direction: column;

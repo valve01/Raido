@@ -5,47 +5,21 @@
 
 // Desktop first
 @media (max-width: 767px) {
+
 	// header ======================================================
+
 	.header-banner-container {
 		background-position: 70% 0;
 	}
 	.menu-list {
 		column-gap: 12px;
 	}
-	// about ================================================================
 
-	// about ================================================================
-	// .about {
-	// 	&__inner {
-	// 		min-height: 530px;
-	// 		position: relative;
-	// 		top: 20px;
-	// 	}
-	// 	&__photo-container {
-	// 		min-width: 480px;
-	// 		min-height: 530px;
-	// 	}
-	// 	&__subtitle {
-	// 		margin-bottom: 30px;
-	// 	}
-	// }
-	// .stat {
-	// 	margin-bottom: 30px;
-	// 	&__item {
-	// 		padding: 10px 16px 20px;
-	// 	}
-	// 	&__item-number {
-	// 		font-size: 30px;
-	// 	}
-	// 	&__item-name {
-	// 		font-size: 16px;
-	// 	}
-	// }
+	// about ======================================================
 
 	.about {
 		&__photo-container {
-			// min-width: 480px;
-			// left: 0;
+
 		}
 		&__subtitle {
 			margin-bottom: 200px;
@@ -56,7 +30,9 @@
 			padding: 20px 32px 30px;
 		}
 	}
+
 	// discover =============================================================
+
 	.discover-btn {
 		padding: 8px 16px 8px 10px;
 	}
@@ -89,11 +65,12 @@
 		}
 	}
 
-
 	// blog ==============================================================
+
 	.blog {
 		padding-top: 90px;
 	}
+
 	// journals ==============================================================
 
 	.journals {
@@ -114,7 +91,9 @@
 		top: -116px;
 		transform: translateX(10px);
 	}
+
 	// galery ==============================================================
+
 	.galery {
 		&__list-container {
 			max-width: 600px;
@@ -183,7 +162,9 @@
 			line-height: 24px;
 		}
 	}
+
 	// mail-form ============================================================
+
 	.mail-form {
 		&__form {
 			row-gap: 10px;
@@ -191,6 +172,7 @@
 	}
 
 	// footer ==============================================================
+	
 	.footer {
 		&__main-block {
 			margin: 90px 0;

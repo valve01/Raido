@@ -2,8 +2,6 @@
 	&__inner {
 		padding-top: 120px;
 	}
-	&__title {
-	}
 	&__subtitle {
 		max-width: 520px;
 		margin: 0 auto 60px;
@@ -16,8 +14,6 @@
 	}
 	&__item {
 		width: 340px;
-	}
-	&__link {
 	}
 	&__text-block {
 		position: relative;
@@ -35,10 +31,6 @@
 	&__author-avatar {
 		margin-right: 10px;
 	}
-	&__author-name {
-	}
-	&__item-title-link {
-	}
 	&__item-title {
 		font-size: 18px;
 		margin-bottom: 12px;
@@ -50,7 +42,6 @@
 		font-size: 14px;
 		line-height: 18px;
 	}
-
 	&__item-bg-image {
 		background-repeat: no-repeat;
 		background-size: contain;
@@ -91,7 +82,6 @@
 	margin-top: 60px;
 }
 
-
 // ============================
 .image {
 	position: relative;
@@ -100,9 +90,9 @@
 	margin: 0 auto;
 	overflow: hidden;
 	transition: all 0.3s ease-in-out;
-  }
-  
-  .image-switch {
+}
+
+.image-switch {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -112,16 +102,14 @@
 	display: flex;
 	opacity: 0;
 	transition: all 0.3s ease-in-out;
-  }
-  
-  .img {
+}
+.img {
 	display: block;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-  }
-  
-  .image-switch-item {
+}
+.image-switch-item {
 	width: 33.33%;
 	transition: all 0.3s ease-in-out;
 	cursor: pointer;
@@ -129,21 +117,19 @@
 	flex-direction: column;
 	justify-content: flex-end;
 	padding-bottom: 5px;
-  }
-  
-  .image-switch-item::after {
-	content: "";
+}
+.image-switch-item::after {
+	content: '';
 	width: 90%;
 	margin: 0 auto;
 	height: 3px;
-	background-color: rgba(255,255,255, 0.4);
+	background-color: rgba(255, 255, 255, 0.4);
 	border-radius: 10px;
 	z-index: 2;
 	position: relative;
 	transition: all 0.3s ease-in-out;
-  }
-  
-  .switched-image {
+}
+.switched-image {
 	position: absolute;
 	left: 50%;
 	top: 0;
@@ -154,29 +140,26 @@
 	height: 100%;
 	transform: translateX(-50%);
 	pointer-events: none;
-  }
-  
-  .image:hover .image-switch {
+}
+.image:hover .image-switch {
 	opacity: 1;
 	transition: all 0.3s ease-in-out;
-  }
-  
-  .image-switch-item:hover .switched-image {
+}
+.image-switch-item:hover .switched-image {
 	transition: all 0.3s ease-in-out;
 	opacity: 1;
 	z-index: -1;
-  }
-  
-  .image-switch-item:hover::after {
+}
+.image-switch-item:hover::after {
 	background-color: #fff;
 	transition: all 0.3s ease-in-out;
-  }
+}
 
-  @media (pointer: coarse) {
+@media (pointer: coarse) {
 	.image .image-switch {
 		opacity: 1;
 	}
-	.image-switch-item:active .switched-image{
+	.image-switch-item:active .switched-image {
 		transition: all 0.3s ease-in-out;
 		opacity: 1;
 		z-index: -1;

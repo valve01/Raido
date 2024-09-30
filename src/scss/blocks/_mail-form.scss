@@ -29,7 +29,7 @@
 		align-items: end;
 	}
 	&__input {
-		background-color: #20232c ;
+		background-color: #20232c;
 		width: 100%;
 		padding: 22px 0 22px 30px;
 		&::placeholder {
@@ -43,16 +43,6 @@
 				opacity: 0.07;
 			}
 		}
-	}
-	&__user-name {
-	}
-	&__user-mail {
-		
-	}
-	&__comment {
-	}
-	&__submit {
-		
 	}
 	&__contacts {
 		background-size: cover;
@@ -74,10 +64,6 @@
 		justify-content: center;
 		align-items: center;
 	}
-	&__contacts-inner {
-	}
-	&__header {
-	}
 	&__title {
 		text-align: left;
 	}
@@ -89,12 +75,6 @@
 		flex-direction: column;
 		row-gap: 34px;
 	}
-	&__contacts-item {
-	}
-	&__contacts-link {
-	}
-	&__contacts-icon {
-	}
 	&__contats-text {
 		margin-left: 21px;
 	}
@@ -104,28 +84,10 @@
 .svg-icons--globe-dims {
 	width: 22px;
 	height: 22px;
-	// margin-right: 21px;
-}
-
-.container {
-}
-.read-btn {
-}
-.read-btn-text-block {
 }
 .read-btn-text-block-light {
 	.read-btn-text {
 		color: var(--color-bg);
 		padding: 15px 40px;
 	}
-}
-.read-btn-text {
-}
-.read-btn-icon-block {
-}
-.svg-icons--arrow-dims {
-}
-.title {
-}
-.subtitle {
 }

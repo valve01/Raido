@@ -9,10 +9,6 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 100% 0;
-	// mask-image: url('../img/ban/banner-filter.png');
-	// mask-size: cover;
-	// mask-repeat: no-repeat;
-	// mask-position: center;
 }
 
 .header {
@@ -28,25 +24,15 @@
 		display: flex;
 		padding-right: 20px;
 		padding-left: 20px;
-		// justify-content: end;
 		align-items: center;
 		text-transform: capitalize;
 		justify-content: space-between;
 	}
-	&__search-link {
-	}
-}
-
-.container {
-}
-.logo-link {
 }
 .logo {
 	@extend %font-Poppins-700;
 	font-size: 22px;
 	line-height: 33px;
-}
-.menu {
 }
 .menu-list {
 	display: flex;
@@ -92,4 +78,3 @@
 	height: 25px;
 	width: 25px;
 }
-
