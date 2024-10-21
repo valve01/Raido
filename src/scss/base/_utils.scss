@@ -48,6 +48,9 @@
 .discover-btn:hover .svg-icons--arrow-dims {
 	animation: arrow 1s linear infinite;
 }
+
+
+// sweet alarm =======================================
 body .invalid-value::placeholder {
 	color: red;
 }
@@ -55,8 +58,6 @@ body .invalid-value::placeholder {
 body .valid-value {
 	color: green;
 }
-
-// sweet alarm =======================================
 .swal-overlay {
 	background-color: rgba(0, 0, 0, 0.75);
 }
