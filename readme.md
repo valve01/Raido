@@ -2,14 +2,19 @@
 
 Посмотреть сайт можно тут:<br>
 <https://valve01.github.io/Raido/><br>
+<br>
+Скачать макет в формате Adobe XD можно тут:<br>
+<https://goo.su/DicYTHL><br>
 
 ## Использованные библиотеки:
+
 - baguettebox.js
 - sweetalert
 - validator
 - swiper
 
 ## Стэк
+
 - HTML 5
 - CSS 3
 - SCSS
@@ -38,6 +43,7 @@
 - моментальный набор номера телефона по клику на него
 
 ### с помощью gulp:
+
 - оптимизация изображений (gulp-imagemin)
 - оптимизация шрифтов (gulp-ttf2woff2)
 - оптимизация svg (gulp-svg-sprite)
@@ -45,6 +51,7 @@
 - корректная работа javascript в любых браузерах (gulp-babel)
 
 ###### Для разработчиков
+
 собрать билд для деплоя<br>
 npx gulp docs
 
