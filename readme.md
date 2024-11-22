@@ -34,8 +34,8 @@
 - корректная работа javascript в любых браузерах (gulp-babel)
 
 ###### Для разработчиков
-собрать билд для деплоя
+собрать билд для деплоя<br>
 npx gulp docs
 
-задеплоить на GitHub Pages
+задеплоить на GitHub Pages<br>
 npx gulp deployGhP
