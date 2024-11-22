@@ -9,6 +9,17 @@
 - validator
 - swiper
 
+## Стэк
+- HTML 5
+- CSS 3
+- SCSS
+- Vanilla JS
+- БЭМ
+- Gulp
+- Webpack
+- SVG
+- Adode XD
+
 ## Реализовано
 
 - полный адаптив от 320px до 1920px
