@@ -1,9 +1,9 @@
 # Лэндинг Турфирмы
 
 Посмотреть сайт можно тут:<br>
-<https://valve01.github.io/Raido/><br>
+<https://valve01.github.io/Raido/><br><br>
 
-Скачать макет в формате Adobe XD можно тут:<br><br>
+Скачать макет в формате Adobe XD можно тут:<br>
 <https://goo.su/DicYTHL><br>
 
 ## Использованные библиотеки:
